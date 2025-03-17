@@ -21,3 +21,8 @@ Note: 3 different login details are provided in the .env file
 ## License
 
 MIT
+
+
+## Buying the Domain mane
+![image](https://github.com/user-attachments/assets/8ead64c8-684b-49c2-b5e0-5a14036227e6) <br> <br>
+
