@@ -93,7 +93,7 @@ services:
   users-api:
     container_name: users-api
     image: users-api
-  # platform: linux/amd64
+    platform: linux/amd64
     build:
       context: ./users-api 
     environment:
@@ -115,7 +115,7 @@ services:
   frontend:
     container_name: frontend
     image: frontend
-  # platform: linux/amd64
+    platform: linux/amd64
     build:
       context: ./frontend
     depends_on:
@@ -130,7 +130,7 @@ services:
     #   - "traefik.http.services.frontend.loadbalancer.server.port=80"
     #   - "traefik.http.routers.frontend.priority=5"
     ports:
-      - "80:80"
+      - "8080:80"
     networks:
       - app-network
 
