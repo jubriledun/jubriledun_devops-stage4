@@ -30,6 +30,7 @@ The diagram describes the various components and their interactions.
 Note: 3 different login details are provided in the .env file 
 
 
+## Project Implementation
 
 
 ## Buying the Domain mane
