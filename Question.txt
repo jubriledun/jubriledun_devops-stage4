@@ -1,0 +1,76 @@
+DevOps Stage 4 Task: Containerize, Deploy, and Automate a Microservices TODO Application
+
+Overview
+This task consists of two parts:
+ Containerizing a microservices application (in a forked repository)
+ Creating infrastructure automation code (in a new repository)
+
+Part 1: Application Containerization
+1.⁠ ⁠Repository Setup
+ Fork the original application repository from: https://github.com/hngprojects/DevOps-Stage-4.git
+ Clone your forked repository to your local machine
+ Make all containerization changes in this repository
+
+2.⁠ ⁠Application Components
+ Frontend (Vue.js)
+ Auth API (Go)
+ Todos API (Node.js)
+ Users API (Java/Spring Boot)
+ Log Message Processor (Python)
+ Redis Queue
+
+3.⁠ ⁠Containerization Tasks
+ Create Dockerfiles for each service in their respective folders
+ Set up docker-compose.yml in the root directory
+ Ensure the application builds with a single command:
+ docker-compose up -d
+
+4.⁠ ⁠Domain Configuration
+ Configure a custom domain for the application
+ Configure endpoints:
+ Frontend: http://domain.com
+ Auth API: http://domain.com/api/auth
+ Todos API: http://domain.com/api/todos
+ Users API: http://domain.com/api/users
+
+5.⁠ ⁠Expected Behaviors
+ Login page should be accessible at your custom domain
+ Successful login should redirect to TODO dashboard
+ Direct API access should return:
+ Auth API: "Not Found" response
+ Todos API: "Invalid Token" message
+ Users API: "Missing or invalid Authorization header"
+
+
+Part 2: Infrastructure as Code and Configuration Management
+1.⁠ ⁠New Repository Creation
+ Create a new repository specifically for infrastructure code
+ This repository should contain all Terraform and Ansible files
+
+2.⁠ ⁠Terraform Module
+ Create Terraform configurations to:
+ Provision cloud server(s)
+ Configure security groups
+ Dynamically create Ansible inventory files
+ Trigger Ansible playbook execution after provisioning
+
+3.⁠ ⁠Ansible Module
+Create Ansible roles for:
+ Dependencies Role:
+ Installing Docker, Docker Compose, and other required dependencies
+ Deployment Role:
+ Cloning the application repository (your forked repo from Part 1)
+ Executing Docker Compose to deploy the application
+
+4.⁠ ⁠Single Command Deployment
+ The entire infrastructure setup and application deployment should be executable with a single command:
+ terraform apply -auto-approve
+ This command should provision infrastructure, configure the server, and deploy the application automatically
+
+5.⁠ ⁠README Documentation
+ Create a detailed README.md file in the infrastructure repository with:
+ Setup instructions
+ Requirements
+ Description of the infrastructure and deployment process
+ Any environment variables or configuration needed
+
