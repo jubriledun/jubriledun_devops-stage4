@@ -1,4 +1,4 @@
-# HNG12 DevOps Stage4 Task
+# Containerize, Deploy, and Automate a Microservices TODO Application
 
 ## Detailed Project Task
 https://github.com/jubriledun/jubriledun_devops-stage4/blob/main/Question.txt
