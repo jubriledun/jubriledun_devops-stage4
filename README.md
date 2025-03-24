@@ -1,7 +1,19 @@
 # HNG12 DevOps Stage4 Task
 
+## Detailed Project Task
+https://github.com/jubriledun/jubriledun_devops-stage4/blob/main/Question.txt
+
 ## Project Overview
 This project involves containerizing a microservices TODO application and automating its deployment using Infrastructure as Code (IaC). The application consists of a Vue.js frontend, multiple backend services (Go, Node.js, Java, Python), and a Redis queue, all containerized using Docker and managed with Docker Compose. Infrastructure provisioning and configuration will be automated using Terraform and Ansible to deploy the application seamlessly on the cloud. The final setup will enable one-command deployment (terraform apply -auto-approve), ensuring a fully automated and scalable deployment process.
+
+## Project Objectives
+For this project, the following objectives were achieved;
+
+Containerization: each microservice was packaged into Docker containers with optimized Dockerfiles.
+Simplified Deployment: Docker Compose was used to orchestrate multi-container deployment with a single command (docker-compose up -d).
+Infrastructure Automation: Terraform was utilized to provision cloud infrastructure and manage security configurations dynamically.
+Configuration Management: Server setup and application deployment was automated using Ansible.
+Domain Setup: Custom domain was configured using namecheap.
 
 The app itself is a simple TODO app that additionally authenticates users.
 
