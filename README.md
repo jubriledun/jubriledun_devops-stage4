@@ -9,15 +9,13 @@ This project involves containerizing a microservices TODO application and automa
 ## Project Objectives
 For this project, the following objectives were achieved;
 
-Containerization: each microservice was packaged into Docker containers with optimized Dockerfiles.
-Simplified Deployment: Docker Compose was used to orchestrate multi-container deployment with a single command (docker-compose up -d).
-Infrastructure Automation: Terraform was utilized to provision cloud infrastructure and manage security configurations dynamically.
-Configuration Management: Server setup and application deployment was automated using Ansible.
-Domain Setup: Custom domain was configured using namecheap.
+- Containerization: each microservice was packaged into Docker containers with optimized Dockerfiles.
+- Simplified Deployment: Docker Compose was used to orchestrate multi-container deployment with a single command (docker-compose up -d).
+- Infrastructure Automation: Terraform was utilized to provision cloud infrastructure and manage security configurations dynamically.
+- Configuration Management: Server setup and application deployment was automated using Ansible.
+- Domain Setup: Custom domain was configured using namecheap.
 
-The app itself is a simple TODO app that additionally authenticates users.
-
-## Components
+## Application Components
 
 1. [Frontend](/frontend) part is a Javascript application, provides UI. Created with [VueJS](http://vuejs.org)
 2. [Auth API](/auth-api) is written in Go and provides authorization functionality. Generates JWT tokens to be used with other APIs.
