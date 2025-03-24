@@ -1,6 +1,7 @@
 # HNG12 DevOps Stage4 Task
 
-This Repo Contains the code for a microservice application comprising of several components communicating to each other. In other words, this is an example of microservice. These microservices are written in different languages.
+## Project Overview
+This project involves containerizing a microservices TODO application and automating its deployment using Infrastructure as Code (IaC). The application consists of a Vue.js frontend, multiple backend services (Go, Node.js, Java, Python), and a Redis queue, all containerized using Docker and managed with Docker Compose. Infrastructure provisioning and configuration will be automated using Terraform and Ansible to deploy the application seamlessly on the cloud. The final setup will enable one-command deployment (terraform apply -auto-approve), ensuring a fully automated and scalable deployment process.
 
 The app itself is a simple TODO app that additionally authenticates users.
 
@@ -18,9 +19,7 @@ The diagram describes the various components and their interactions.
 
 Note: 3 different login details are provided in the .env file 
 
-## License
 
-MIT
 
 
 ## Buying the Domain mane
