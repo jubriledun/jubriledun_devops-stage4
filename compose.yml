@@ -3,27 +3,6 @@ networks:
     driver: bridge
 
 services:
-  # traefik:
-  #   image: traefik:v2.10
-  #   restart: always
-  #   command:
-  #     - "--providers.docker.exposedbydefault=false"
-  #     - "--providers.file.filename=/etc/traefik/traefik.yaml"
-  #     - "--entrypoints.web.address=:80"
-  #     - "--entrypoints.websecure.address=:443"
-  #     - "--certificatesresolvers.myresolver.acme.email=oyogbeche@gmail.com"
-  #     - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
-  #     - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=websecure"
-  #   ports:
-  #     - "80:80"d
-  #     - "443:443"
-  #   volumes:
-  #     - /var/run/docker.sock:/var/run/docker.sock:ro
-  #     - ./letsencrypt:/letsencrypt
-  #     - /etc/traefik/traefik.yaml:/etc/traefik/traefik.yaml
-  #   networks:
-  #     - app-network
-
   auth-api:
     container_name: auth-api
     image: auth-api
@@ -35,14 +14,6 @@ services:
       - JWT_SECRET=myfancysecret
     ports:
       - "8081:8081"
-    # labels:
-    #   - "traefik.enable=true"
-    #   - "traefik.http.routers.auth.rule=Host(`auth.oyogbeche.tech`, `auth-api.oyogbeche.tech`)"
-    #   - "traefik.http.routers.auth.entrypoints=websecure"
-    #   - "traefik.http.routers.auth.tls=true"
-    #   - "traefik.http.routers.auth.tls.certresolver=myresolver"
-    #   -  "traefik.http.routers.auth.service=auth-api"
-    #   - "traefik.http.services.auth-api.loadbalancer.server.port=8081"
     depends_on:
       - users-api
     networks:
@@ -77,13 +48,6 @@ services:
       - REDIS_CHANNEL=log_channel
     ports:
       - "8082:8082"
-    # labels:
-    #   - "traefik.enable=true"
-    #   - "traefik.http.routers.todos.rule=Host(`todos.oyogbeche.tech`, `todos-api.oyogbeche.tech`)"
-    #   - "traefik.http.routers.todos.entrypoints=websecure"
-    #   - "traefik.http.routers.todos.tls=true"
-    #   - "traefik.http.routers.todos.service=todos-api"
-    #   - "traefik.http.services.todos-api.loadbalancer.server.port=8082"
     depends_on:
       - redis
       - log-message-processor
@@ -93,7 +57,6 @@ services:
   users-api:
     container_name: users-api
     image: users-api
-  # platform: linux/amd64
     build:
       context: ./users-api 
     environment:
@@ -101,34 +64,17 @@ services:
       - SERVER_PORT=8083
     ports:
       - "8083:8083"
-    # labels:
-    #   - "traefik.enable=true"
-    #   - "traefik.http.routers.users.rule=Host(`users.oyogbeche.tech`, `users-api.oyogbeche.tech`)"
-    #   - "traefik.http.routers.users.entrypoints=websecure"
-    #   - "traefik.http.routers.users.tls=true"
-    #   - "traefik.http.routers.users.tls.certresolver=myresolver"
-    #   - "traefik.http.routers.users.service=users-api"
-    #   - "traefik.http.services.users-api.loadbalancer.server.port=8083"
     networks:
       - app-network
 
   frontend:
     container_name: frontend
     image: frontend
-  # platform: linux/amd64
     build:
       context: ./frontend
     depends_on:
       - auth-api
       - todos-api
-    # labels:
-    #   - "traefik.enable=true"
-    #   - "traefik.http.routers.frontend.rule=Host(`oyogbeche.tech`)"
-    #   - "traefik.http.routers.frontend.entrypoints=websecure"
-    #   - "traefik.http.routers.frontend.tls=true"
-    #   - "traefik.http.routers.frontend.tls.certresolver=myresolver"
-    #   - "traefik.http.services.frontend.loadbalancer.server.port=80"
-    #   - "traefik.http.routers.frontend.priority=5"
     ports:
       - "80:80"
     networks:
@@ -141,6 +87,3 @@ services:
       - "6379:6379"
     networks:
       - app-network
-
-# volumes:
-#   letsencrypt:
