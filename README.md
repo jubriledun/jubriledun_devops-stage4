@@ -49,6 +49,11 @@ Note: 3 different login details are provided in the .env file
   ![image](https://github.com/user-attachments/assets/d7b020e3-1a67-4461-b20d-7f921d445572)
 
 
+### Simplified Deployment (Docker compose)
+- Link to docker compose file
+  https://github.com/jubriledun/jubriledun_devops-stage4/blob/main/compose.yml
+
+
 
 
 
