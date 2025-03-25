@@ -69,6 +69,10 @@ Note: 3 different login details are provided in the .env file
 
 
 ### Infrastructure Automation with Terraform
+## Setup AWS CLI Credentials
+![image](https://github.com/user-attachments/assets/638335e3-93b5-46a0-8689-2dfadbe2d551)
+
+## Link to ansible and terraform repository
 
 
 
