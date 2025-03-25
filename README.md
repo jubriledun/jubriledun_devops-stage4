@@ -72,7 +72,16 @@ Note: 3 different login details are provided in the .env file
 ## Setup AWS CLI Credentials
 ![image](https://github.com/user-attachments/assets/638335e3-93b5-46a0-8689-2dfadbe2d551)
 
-## Link to ansible and terraform repository
+- main.tf file
+  ![image](https://github.com/user-attachments/assets/86ca579d-20ac-4975-8d94-dc2aa8174930)
+
+- providers.tf file
+  ![image](https://github.com/user-attachments/assets/0c92b040-19e3-4b7b-8c23-7c6c0b858c97)
+
+- output.tf file
+  ![image](https://github.com/user-attachments/assets/96e00585-3f25-48ad-9dd6-d2eac254eed9)
+
+## Repo Link for Infrastructure provisioning
 https://github.com/jubriledun/jubriledun_devops_stage4_infra
 
 ### Runing Terraform apply command
