@@ -71,6 +71,11 @@ Note: 3 different login details are provided in the .env file
 ### Infrastructure Automation with Terraform
 
 
+
+### Running Terraform apply
+![image](https://github.com/user-attachments/assets/831773ad-affa-44de-a92c-75e30943e936)
+
+
   
 
 
