@@ -75,6 +75,12 @@ Note: 3 different login details are provided in the .env file
 ### Running Terraform apply
 ![image](https://github.com/user-attachments/assets/831773ad-affa-44de-a92c-75e30943e936)
 
+![image](https://github.com/user-attachments/assets/434b51f4-0317-4ac4-8af9-e8edf8868f8c)
+
+
+### Confirm application is running
+
+
 
   
 
