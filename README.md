@@ -92,8 +92,18 @@ Note: 3 different login details are provided in the .env file
 
 ### Updating DNS Records
 ![image](https://github.com/user-attachments/assets/25b92092-2266-410d-9f76-3521d51b1e1d)
+![image](https://github.com/user-attachments/assets/0479e63d-7b1e-4666-b2b6-2d3d581feeee)
+![image](https://github.com/user-attachments/assets/d3edddad-7332-4d78-aab1-af0a375684c9)
+![image](https://github.com/user-attachments/assets/36fa3f4e-f74d-4a00-ad8e-c72c82372dd8)
+![image](https://github.com/user-attachments/assets/87f5318f-e9f0-4a1c-8b42-874bfd7203e3)
+![image](https://github.com/user-attachments/assets/594194ae-5942-431a-ab6d-121e611af55e)
+
+
+
 
 
 ### Confirm DNS works
+![image](https://github.com/user-attachments/assets/80903714-702b-4cea-9f0b-ca5592fd3d45)
+
 
 
