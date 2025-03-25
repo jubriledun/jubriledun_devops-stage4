@@ -37,7 +37,20 @@ Note: 3 different login details are provided in the .env file
   ![image](https://github.com/user-attachments/assets/7d209343-5210-406d-816a-939d55c341d2)
   
 - Dockerfile for Auth API service
-  ![image](https://github.com/user-attachments/assets/7ca75f02-d600-43eb-987c-18ad969d14b6)
+  ![image](https://github.com/user-attachments/assets/08caf2da-cd7a-46af-8457-483d6587c910)
+
+- Dockerfile for Todos API service
+  ![image](https://github.com/user-attachments/assets/1624e4cf-ba25-4fc8-a5d3-8cd7d994ca56)
+
+- Dockerfile for Users API service
+  ![image](https://github.com/user-attachments/assets/21930174-57c5-4d57-996d-c1d6075e761d)
+
+- Dockerfile for Log Message Processor service
+  ![image](https://github.com/user-attachments/assets/d7b020e3-1a67-4461-b20d-7f921d445572)
+
+
+
+
 
 
   
