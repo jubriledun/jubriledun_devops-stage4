@@ -32,6 +32,16 @@ Note: 3 different login details are provided in the .env file
 
 ## Project Implementation
 
+### Dockerizing the microservices
+- Dockerfile for Frontend service
+  ![image](https://github.com/user-attachments/assets/7d209343-5210-406d-816a-939d55c341d2)
+  
+- Dockerfile for Auth API service
+  ![image](https://github.com/user-attachments/assets/7ca75f02-d600-43eb-987c-18ad969d14b6)
+
+
+  
+
 
 ## Buying the Domain mane
 ![image](https://github.com/user-attachments/assets/8ead64c8-684b-49c2-b5e0-5a14036227e6) <br> <br>
