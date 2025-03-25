@@ -69,7 +69,7 @@ Note: 3 different login details are provided in the .env file
 
 
 ### Infrastructure Automation with Terraform
-### Setup AWS CLI Credentials
+- Setup AWS CLI Credentials
 ![image](https://github.com/user-attachments/assets/638335e3-93b5-46a0-8689-2dfadbe2d551)
 
 - main.tf file
@@ -81,10 +81,10 @@ Note: 3 different login details are provided in the .env file
 - output.tf file
   ![image](https://github.com/user-attachments/assets/96e00585-3f25-48ad-9dd6-d2eac254eed9)
 
-### Repo Link for Infrastructure provisioning
+- Repo Link for Infrastructure provisioning
 https://github.com/jubriledun/jubriledun_devops_stage4_infra
 
-### Runing Terraform apply command
+- Runing Terraform apply command
 ![image](https://github.com/user-attachments/assets/831773ad-affa-44de-a92c-75e30943e936)
 
 ![image](https://github.com/user-attachments/assets/434b51f4-0317-4ac4-8af9-e8edf8868f8c)
