@@ -91,4 +91,8 @@ Note: 3 different login details are provided in the .env file
 ![image](https://github.com/user-attachments/assets/8ead64c8-684b-49c2-b5e0-5a14036227e6) 
 
 ### Updating DNS Records
+![image](https://github.com/user-attachments/assets/ed4a7303-03b1-4d37-82fb-300ae97ec4cd)
+
+### Confirm DNS works
+
 
