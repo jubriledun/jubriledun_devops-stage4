@@ -48,14 +48,24 @@ Note: 3 different login details are provided in the .env file
 - Dockerfile for Log Message Processor service
   ![image](https://github.com/user-attachments/assets/d7b020e3-1a67-4461-b20d-7f921d445572)
 
+- Nginx config for frontend service to serve as reverse proxy
+  ![image](https://github.com/user-attachments/assets/38b13560-3863-47ac-b47b-15446ba6d174)
+
 
 ### Simplified Deployment (Docker compose)
 - Link to docker compose file
   https://github.com/jubriledun/jubriledun_devops-stage4/blob/main/compose.yml
 
 
+### Configuration Management with Ansible
+- Playbook
+  ![image](https://github.com/user-attachments/assets/69c16ffe-42c2-4a86-8a1e-23c34ec1c5f6)
 
+- Dependencies role
+  ![image](https://github.com/user-attachments/assets/def4797e-247a-449f-b76e-85a8ef8fe394)
 
+- Deployment role
+  ![image](https://github.com/user-attachments/assets/9db923d4-c9db-4af5-a0ed-1c7011442079)
 
 
   
