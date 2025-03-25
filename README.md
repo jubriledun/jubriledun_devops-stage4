@@ -79,12 +79,16 @@ Note: 3 different login details are provided in the .env file
 
 
 ### Confirm application is running
+![image](https://github.com/user-attachments/assets/0a52412c-1701-470a-8fa1-af3be2c2aa72)
+![image](https://github.com/user-attachments/assets/49089cda-3c3c-4ed9-9a75-e19311e9e235)
+![image](https://github.com/user-attachments/assets/8e0f60d5-c60d-42c3-8be0-7e3ee90a4df7)
+![image](https://github.com/user-attachments/assets/1f2881a2-78b4-48d7-8e6e-12f89f708a1d)
+![image](https://github.com/user-attachments/assets/79aa6c3b-31d7-460b-beac-dc46ff53cf1f)  
 
+## Configuring Domain
 
+### Buying the Domain mane
+![image](https://github.com/user-attachments/assets/8ead64c8-684b-49c2-b5e0-5a14036227e6) 
 
-  
-
-
-## Buying the Domain mane
-![image](https://github.com/user-attachments/assets/8ead64c8-684b-49c2-b5e0-5a14036227e6) <br> <br>
+### Updating DNS Records
 
