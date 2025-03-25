@@ -73,10 +73,9 @@ Note: 3 different login details are provided in the .env file
 ![image](https://github.com/user-attachments/assets/638335e3-93b5-46a0-8689-2dfadbe2d551)
 
 ## Link to ansible and terraform repository
+https://github.com/jubriledun/jubriledun_devops_stage4_infra
 
-
-
-### Running Terraform apply
+### Runing Terraform apply command
 ![image](https://github.com/user-attachments/assets/831773ad-affa-44de-a92c-75e30943e936)
 
 ![image](https://github.com/user-attachments/assets/434b51f4-0317-4ac4-8af9-e8edf8868f8c)
